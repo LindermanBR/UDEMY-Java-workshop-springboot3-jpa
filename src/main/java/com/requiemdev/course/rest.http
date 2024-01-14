@@ -54,5 +54,17 @@ Content-Type: application/json
 ###
 
 //Delete user by id
-DELETE http://localhost:8080/users/1
+DELETE http://localhost:8080/users/3
+
+###
+
+//Update user by id
+PUT http://localhost:8080/users/1
+Content-Type: application/json
+
+{
+"nome": "Bob Brown",
+"email": "bob@gmail.com",
+"phone": "977557755"
+}
 
